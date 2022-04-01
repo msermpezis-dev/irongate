@@ -1,0 +1,41 @@
+m3,J*?LPY\9?<%dz#~.XjaLA[4-FNfBN
+
+
+use [unofficial]
+GO
+GRANT INSERT ON [dbo].[UserData] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT SELECT ON [dbo].[UserData] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT UPDATE ON [dbo].[UserData] TO [auth]
+GO
+=========================================
+use [unofficial]
+GO
+GRANT DELETE ON [dbo].[User_Entity] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT INSERT ON [dbo].[User_Entity] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT SELECT ON [dbo].[User_Entity] TO [auth]
+GO
+=========================================
+use [unofficial]
+GO
+GRANT DELETE ON [dbo].[Entity] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT INSERT ON [dbo].[Entity] TO [auth]
+GO
+use [unofficial]
+GO
+GRANT SELECT ON [dbo].[Entity] TO [auth]
+GO
